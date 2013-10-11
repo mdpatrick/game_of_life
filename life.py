@@ -127,14 +127,6 @@ def convertBoardToHashmarks(matrix):
 
     return newMatrix
 
-
-
-#printMatrix(convertBoardToHashmarks(mat1))
-#print("==") ##############################
-#mat2 = nextGeneration(mat1)
-#hashedMat2 = convertBoardToHashmarks(mat2)
-#printMatrix(hashedMat2)
-
 if (len(argv) < 4) or (len(argv) > 4):
     print("Please supply the appropriate number of parameters.")
     print("e.g. \"python3 life.py example.dat [num_of_rows] [num_of_cols]\"")
